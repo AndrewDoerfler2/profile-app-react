@@ -12,7 +12,9 @@ const About = () => {
                     <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8">
                         <p className='text-2xl font-bold sm:text-right text-white-300'>Thank you for visiting</p>
                         <div>
-                        <p className='text-2xl text-white-300'>I graduated from Ohio University in 2019 with degrees in: MIS and Business Analytics</p>
+                        <p className='text-2xl text-white-300 py-4'>I graduated from Ohio University in 2019 with degrees in: MIS and Business Analytics.</p>
+                        <p className='text-2xl text-white-300 py-4'>I began my career working for Strategic Insurance Software which was later acquired by Zywave.</p>
+                        <p className='text-2xl text-white-300 py-4'>At this point, I am looking to further my career as a Software Engineer and move into some more cloud technologies!</p>
                         </div>
                     </div>
 
