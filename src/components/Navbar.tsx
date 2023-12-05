@@ -4,6 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { useState } from 'react';
 import { Link } from 'react-scroll';
+import Resume from '../assets/Resume_Nov_2023.pdf'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -87,25 +88,29 @@ const Navbar = () => {
                     <ul>    
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-gray-600'>
                             <a className='flex justify-between items-center w-full text-white-300' 
-                            href='' > 
+                            href='https://github.com/AndrewDoerfler2' 
+                            target='_blank' 
+                            rel='noopener noreferrer'> 
                                 GitHub <FaGithub size={40}/>
                             </a>
                         </li>
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600'>
                         <a className='flex justify-between items-center w-full text-white-300' 
-                        href='' > 
+                        href='https://linkedin.com/in/AndrewDoerfler' 
+                        target='_blank' 
+                        rel='noopener noreferrer'> 
                                 LinkedIn <FaLinkedin size={40}/>
                             </a>
                         </li>
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-green-600'>
                         <a className='flex justify-between items-center w-full text-white-300' 
-                        href='' > 
+                        href='mailto:andrew.doerfler@gmail.com?subject=Contacting via Portfolio App' > 
                                 Email <HiOutlineMail size={40}/>
                             </a>
                         </li>
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-red-600'>
                         <a className='flex justify-between items-center w-full text-white-300' 
-                        href='' > 
+                        href={Resume} > 
                                 Resume <BsFillPersonLinesFill size={40}/>
                             </a>
                         </li>
