@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  body{
+    @apply font-[Raleway];
+    background-color: #1a202c;
+  }
+  li{
+    @apply px-4 py-2 cursor-pointer;
+  }
+}
