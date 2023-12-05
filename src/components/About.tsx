@@ -15,6 +15,7 @@ const About = () => {
                         <p className='text-2xl text-white-300 py-4'>I graduated from Ohio University in 2019 with degrees in: MIS and Business Analytics.</p>
                         <p className='text-2xl text-white-300 py-4'>I began my career working for Strategic Insurance Software which was later acquired by Zywave.</p>
                         <p className='text-2xl text-white-300 py-4'>At this point, I am looking to further my career as a Software Engineer and move into some more cloud technologies!</p>
+                        <p className='text-2xl text-white-300 py-4'>Personally, I love to be outdoors! I like to kayak, bike, snowboard, and run (sometimes)</p>
                         </div>
                     </div>
 
