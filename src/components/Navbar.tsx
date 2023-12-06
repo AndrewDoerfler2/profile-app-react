@@ -1,10 +1,11 @@
 import Logo from '../assets/Logo.png'
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaBarcode} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import Resume from '../assets/Resume_Nov_2023.pdf'
+import BusinessCard from '../assets/BusinessCard.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -112,6 +113,12 @@ const Navbar = () => {
                         <a className='flex justify-between items-center w-full text-white-300' 
                         href={Resume} > 
                                 Resume <BsFillPersonLinesFill size={40}/>
+                            </a>
+                        </li>
+                        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-red-600'>
+                        <a className='flex justify-between items-center w-full text-white-300' 
+                        href={BusinessCard} > 
+                                Business Card <FaBarcode size={40}/>
                             </a>
                         </li>
                     </ul>
